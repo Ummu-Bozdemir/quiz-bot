@@ -8,7 +8,7 @@ The goal is to practice clean project structure, testing, and basic development 
 
 ## Project Structure
 
-'''
+```
 quiz-bot/
 ├── README.md
 ├── pyproject.toml
@@ -19,7 +19,7 @@ quiz-bot/
 └── tests
 ├── init.py
 └── test_main.py
-'''
+```
 
 ---
 
@@ -56,7 +56,7 @@ uv run ruff check .
 
 ---
 
-## 📝 Overview
+## Overview
 
 This project contains a simple function and a small unit test validating its behavior.  
 It was created as part of an introductory assignment to practice working with Codespaces, uv, pytest, and ruff.
