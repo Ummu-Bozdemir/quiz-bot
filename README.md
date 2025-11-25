@@ -1,48 +1,63 @@
 # Quiz-Bot
 
 A simple Python project created in GitHub Codespaces.  
-The repository demonstrates a basic project layout, a small greeting function, automated tests with pytest, and linting with ruff.
+It includes a small greeting function, automated tests using pytest, and a configured ruff linter.  
+The goal is to practice clean project structure, testing, and basic development workflow.
 
 ---
 
-## 📁 Project Structure
+## 1 Project Structure
 
-README.md
-pyproject.toml
-pytest.ini
-src/
-├── init.py
-└── main.py
-tests/
+quiz-bot/
+├── README.md
+├── pyproject.toml
+├── pytest.ini
+├── src
+│ ├── init.py
+│ └── main.py
+└── tests
 ├── init.py
 └── test_main.py
 
-yaml
-Kodu kopyala
 
 ---
 
-## ▶️ Running the Application
+## 2 Application Entry Point
 
-```bash
+The main function returns a greeting message:
+
+def hello() -> str:
+return "Hello, World!"
+
+csharp
+Kodu kopyala
+
+Run the application with:
+
 uv run python src/main.py
-🧪 Running Tests
-bash
-Kodu kopyala
+
+
+---
+
+## 4 Running Tests
+
+Run the test suite with:
+
 uv run pytest
-🧹 Running the Linter
-bash
-Kodu kopyala
+
+
+---
+
+## 5 Linting (ruff)
+
+Check code style with:
+
 uv run ruff check .
-📌 Overview
-This project contains a simple function returning a greeting message.
-It includes a small unit test to validate the behavior.
-The repository was created as part of an introductory assignment to practice using:
 
-GitHub Codespaces
 
-uv package manager
+---
 
-pytest
+## 6 Overview
 
-ruff linter
+This project contains a simple function and a small unit test validating its behavior.  
+It was created as part of an introductory assignment to practice working with Codespaces, uv, pytest, and ruff.
